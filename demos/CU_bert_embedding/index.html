@@ -31,6 +31,409 @@
 </head>
     
 <body>
+
+    <p>
+        <i>GT</i> means ground truth.</br>
+        <i>Copy-syns</i> means synthesized from ground truth mel-spectragram using waveRNN vocoder. </br>
+        <i>Tacotron2</i> means standard tacotron2. </br>
+        <i>PSE</i> means tacotron2 with PSE cross-utterance encoder. </br>
+        <i>CSE</i> means tacotron2 with CSE cross-utterance encoder. </br>
+    </p>
+
+    <h2>Chinese Mandarin</h2></a>
+    <h3>case in testing set</h3>
+
+        1. 顷刻间寸寸爆裂而开。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/ground_truth/wavernn_125909.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/copy-syns/wavernn_125909.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/tacotron2/wavernn_125909.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/cse/wavernn_125909.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/pse/wavernn_125909.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        2. 旋即一道火红影子快若闪电般的掠进场中。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/ground_truth/wavernn_126783.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/copy-syns/wavernn_126783.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/tacotron2/wavernn_126783.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/cse/wavernn_126783.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/pse/wavernn_126783.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        3. 突然有着一道仿佛奇特的咆哮声响彻。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/ground_truth/wavernn_133985.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/copy-syns/wavernn_133985.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/tacotron2/wavernn_133985.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/cse/wavernn_133985.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/pse/wavernn_133985.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        4. 狩猎，算是青阳镇几大势力另外的一种博弈之处。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/ground_truth/wavernn_105417.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/copy-syns/wavernn_105417.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/tacotron2/wavernn_105417.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/cse/wavernn_105417.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/pse/wavernn_105417.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        5. 只不过有些奇异的是。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/ground_truth/wavernn_117276.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/copy-syns/wavernn_117276.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/tacotron2/wavernn_117276.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/cse/wavernn_117276.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/in_testing/pse/wavernn_117276.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+    <h3>case in open domain paragraph(4 consecutive sentences)</h3></a> 
+
+        1. <b>novel: </b>过了一阵，他们看到一个涂着红黄白等各色油彩的小丑跑了过来，先是往天上扔出一个个网球，接着在人们的注意力被吸引到半空时，不知从哪里变出了一束花，一束塞维亚菊。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/base_concated/3-1-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/CSE_concated/3-1-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/PSE_concated/3-1-1003.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        2. <b>novel: </b>张家口是南北通道，塞外皮毛集散之地，人烟稠密，市肆繁盛。郭靖手牵红马，东张西望，他从未到过这般大城市，但见事事透着新鲜。来到一家大酒店之前，腹中饥饿，便把马系在门前马桩之上。进店入座，要了一盘牛肉，两斤面饼，大口吃了起来。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/base_concated/3-4-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/CSE_concated/3-4-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/PSE_concated/3-4-1003.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        3. <b>introduction: </b>长城修筑的历史可上溯到西周时期，发生在首都镐京的著名的典故“烽火戏诸侯”就源于此。春秋战国时期列国争霸，互相防守，长城修筑进入第一个高潮，但此时修筑的长度都比较短。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/base_concated/4-1-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/CSE_concated/4-1-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/PSE_concated/4-1-1003.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        4. <b>introduction: </b>作品描绘了京城汴梁从城郊、汴河到城内街市的繁华景象。整个长卷犹如一部乐章，由慢板、柔板，逐渐进入快板、紧板，转而进入尾声，留下无尽的回味。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/base_concated/4-11-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/CSE_concated/4-11-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/PSE_concated/4-11-1003.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        5. <b>prose: </b>山朗润起来了，水长起来了，太阳的脸红起来了。小草偷偷地从土里钻出来，嫩嫩的，绿绿的。园子里，田野里，瞧去，一大片一大片满是的。坐着，躺着，打两个滚，踢几脚球，赛几趟跑。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/base_concated/5-6-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/CSE_concated/5-6-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/PSE_concated/5-6-1003.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        6. <b>prose: </b>山朗润起来了，水长起来了，太阳的脸红起来了。小草偷偷地从土里钻出来，嫩嫩的，绿绿的。园子里，田野里，瞧去，一大片一大片满是的。坐着，躺着，打两个滚，踢几脚球，赛几趟跑。
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/base_concated/5-14-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/CSE_concated/5-14-1003.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/Mandarin/out_domain/PSE_concated/5-14-1003.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+
+    <h2>English</h2></a>
+    <h3>case in testing set</h3>
+
+        1. It must be said that it is in no way like the transition type of Subiaco.
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/English/in_testing/ground_truth/wavernn_LJ001-0041.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/copy-syns/wavernn_LJ001-0041.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/tacotron2/wavernn_LJ001-0041.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/cse/wavernn_LJ001-0041.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/pse/wavernn_LJ001-0041.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        2. and who are therefore lodged apart from all other districts of the jail. End quote.
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/English/in_testing/ground_truth/wavernn_LJ002-0075.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/copy-syns/wavernn_LJ002-0075.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/tacotron2/wavernn_LJ002-0075.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/cse/wavernn_LJ002-0075.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/pse/wavernn_LJ002-0075.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+        
+        3. instruct the prisoners, quote, give spiritual advice and administer religious consolation, end quote. to all who might need them;
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/English/in_testing/ground_truth/wavernn_LJ003-0313.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/copy-syns/wavernn_LJ003-0313.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/tacotron2/wavernn_LJ003-0313.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/cse/wavernn_LJ003-0313.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/pse/wavernn_LJ003-0313.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        4. I shall have occasion to speak again, and more at length, of Mr. Cope's careless and perfunctory discharge.
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/English/in_testing/ground_truth/wavernn_LJ006-0072.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/copy-syns/wavernn_LJ006-0072.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/tacotron2/wavernn_LJ006-0072.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/cse/wavernn_LJ006-0072.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/pse/wavernn_LJ006-0072.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+        5. one man who had been in the condemned ward for two months, said the governor only came there four times.
+        <blockquote>
+            <table>
+                <tr>
+                    <td align=center>GT</td>
+                    <td align=center>Copy-syns</td>
+                    <td align=center>Tacotron2</td>
+                    <td align=center>CSE</td>
+                    <td align=center>PSE</td>
+                </tr>
+
+                <tr>
+                    <td align=center><audio src="./assets/English/in_testing/ground_truth/wavernn_LJ006-0160.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/copy-syns/wavernn_LJ006-0160.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/tacotron2/wavernn_LJ006-0160.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/cse/wavernn_LJ006-0160.wav" controls=""></audio></td>
+                    <td align=center><audio src="./assets/English/in_testing/pse/wavernn_LJ006-0160.wav" controls=""></audio></td>
+                </tr>
+            </table>
+        </blockquote>
+
+    <h3>case in open domain paragraph(2 consecutive sentences)</h3></a> 
+
+    <b>20000 Leagues Under the Sea</b> <br>
+    1. You know as well as I do, Professor, that man can live under water providing he carries with him a sufficient supply of breathable air. In submarine works, the workman, clad in an impervious dress, with his head in a metal helmet, receives air from above by means of forcing pumps and regulators.
+    <blockquote>
+        <table>
+            <tr>
+                <td align=center>Tacotron2</td>
+                <td align=center>CSE</td>
+                <td align=center>PSE</td>
+            </tr>
+
+            <tr>
+                <td align=center><audio src="./assets/English/out_domain/base_concated/CB-20K1-14-94.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/CSE_concated/CB-20K1-14-94.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/PSE_concated/CB-20K1-14-94.wav" controls=""></audio></td>
+            </tr>
+        </table>
+    </blockquote>
+
+    2. The sea was distinctly visible for a mile all round the Nautilus. What a spectacle! What pen can describe it? Who could paint the effects of the light through those transparent sheets of water, and the softness of the successive gradations from the lower to the superior strata of the ocean?
+    <blockquote>
+        <table>
+            <tr>
+                <td align=center>Tacotron2</td>
+                <td align=center>CSE</td>
+                <td align=center>PSE</td>
+            </tr>
+
+            <tr>
+                <td align=center><audio src="./assets/English/out_domain/base_concated/CB-20K1-13-82.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/CSE_concated/CB-20K1-13-82.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/PSE_concated/CB-20K1-13-82.wav" controls=""></audio></td>
+            </tr>
+        </table>
+    </blockquote>
+
+    <b>The Scarlet Letter</b> <br>
+    3. Such an exhibition however was but to be pictured in fancy; not to be anticipated nor desired. What I saw in him, as evidently as the indestructible ramparts of Old Ticonderoga, already cited as the most appropriate simile, was the features of stubborn and ponderous endurance, which might well have amounted to obstinacy in his earlier days;
+    <blockquote>
+        <table>
+            <tr>
+                <td align=center>Tacotron2</td>
+                <td align=center>CSE</td>
+                <td align=center>PSE</td>
+            </tr>
+
+            <tr>
+                <td align=center><audio src="./assets/English/out_domain/base_concated/CB-CUS-01-237.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/CSE_concated/CB-CUS-01-237.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/PSE_concated/CB-CUS-01-237.wav" controls=""></audio></td>
+            </tr>
+        </table>
+    </blockquote>
+
+    4. The somewhat dim coal fire has an essential Influence in producing the effect which I would describe. It throws its unobtrusive tinge throughout the room, with a faint ruddiness upon the walls and ceiling, and a reflected gleam upon the polish of the furniture.
+    <blockquote>
+        <table>
+            <tr>
+                <td align=center>Tacotron2</td>
+                <td align=center>CSE</td>
+                <td align=center>PSE</td>
+            </tr>
+
+            <tr>
+                <td align=center><audio src="./assets/English/out_domain/base_concated/CB-CUS-01-431.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/CSE_concated/CB-CUS-01-431.wav" controls=""></audio></td>
+                <td align=center><audio src="./assets/English/out_domain/PSE_concated/CB-CUS-01-431.wav" controls=""></audio></td>
+            </tr>
+        </table>
+    </blockquote>
+
+
 </body>
 
 </html>
