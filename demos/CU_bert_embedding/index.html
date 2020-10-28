@@ -33,25 +33,25 @@
 <body>
 
     <p>
-        <b>GT</b> means ground truth.</br>
+        <b>Ground truth</b> means ground truth.</br>
         <b>Copy-syns</b> means synthesized from ground truth mel-spectragram using waveRNN vocoder. </br>
         <b>Tacotron2</b> means standard tacotron2. </br>
-        <b>PSE</b> means tacotron2 with PSE cross-utterance encoder. </br>
-        <b>CSE</b> means tacotron2 with CSE cross-utterance encoder. </br>
+        <b>CSE-based Tacotron2</b> means tacotron2 with CSE cross-utterance encoder. </br>
+        <b>PSE-based Tacotron2</b> means tacotron2 with PSE cross-utterance encoder. </br>
     </p>
 
-    <h2>Chinese Mandarin</h2></a>
-    <h3>case in testing set</h3>
+    <h2>Mandarin</h2></a>
+    <h3>Cases from the same audiobook but not included in the training set</h3>
 
         1. 顷刻间寸寸爆裂而开。
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -68,11 +68,11 @@
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -85,15 +85,15 @@
             </table>
         </blockquote>
 
-        3. 突然有着一道仿佛奇特的咆哮声响彻。
+        <!-- 3. 突然有着一道仿佛奇特的咆哮声响彻。
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -104,17 +104,17 @@
                     <td align=center><audio src="assets/Mandarin/in_testing/pse/wavernn_133985.wav" controls=""></audio></td>
                 </tr>
             </table>
-        </blockquote>
+        </blockquote> -->
 
         4. 狩猎，算是青阳镇几大势力另外的一种博弈之处。
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -131,11 +131,11 @@
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -150,15 +150,15 @@
 
     </br>
 
-    <h3>case in open domain paragraph(4 consecutive sentences)</h3></a> 
+    <h3>Cases in open domain paragraph(4 consecutive sentences). <b>Synthesized by griffin-lim algorithm</b> </h3></a> 
 
         1. <b>novel: </b>过了一阵，他们看到一个涂着红黄白等各色油彩的小丑跑了过来，先是往天上扔出一个个网球，接着在人们的注意力被吸引到半空时，不知从哪里变出了一束花，一束塞维亚菊。
         <blockquote>
             <table>
                 <tr>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -174,8 +174,8 @@
             <table>
                 <tr>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -191,8 +191,8 @@
             <table>
                 <tr>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -208,8 +208,8 @@
             <table>
                 <tr>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -225,8 +225,8 @@
             <table>
                 <tr>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -242,8 +242,8 @@
             <table>
                 <tr>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -257,17 +257,17 @@
     </br>
 
     <h2>English</h2></a>
-    <h3>case in testing set</h3>
+    <h3>Cases from the same audiobook but not included in the training set</h3>
 
         1. It must be said that it is in no way like the transition type of Subiaco.
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -284,11 +284,11 @@
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -305,11 +305,11 @@
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -326,11 +326,11 @@
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -343,15 +343,15 @@
             </table>
         </blockquote>
 
-        5. one man who had been in the condemned ward for two months, said the governor only came there four times.
+        <!-- 5. one man who had been in the condemned ward for two months, said the governor only came there four times.
         <blockquote>
             <table>
                 <tr>
-                    <td align=center>GT</td>
+                    <td align=center>Ground truth</td>
                     <td align=center>Copy-syns</td>
                     <td align=center>Tacotron2</td>
-                    <td align=center>CSE</td>
-                    <td align=center>PSE</td>
+                    <td align=center>CSE-based Tacotron2</td>
+                    <td align=center>PSE-based Tacotron2</td>
                 </tr>
 
                 <tr>
@@ -362,11 +362,11 @@
                     <td align=center><audio src="assets/English/in_testing/pse/wavernn_LJ006-0160.wav" controls=""></audio></td>
                 </tr>
             </table>
-        </blockquote>
+        </blockquote> -->
 
     </br>
 
-    <h3>case in open domain paragraph(2 consecutive sentences)</h3></a> 
+    <h3>Cases in open domain paragraph(2 consecutive sentences). <b>Synthesized by griffin-lim algorithm</b> </h3></a>
 
     <b>20000 Leagues Under the Sea</b> <br>
     1. You know as well as I do, Professor, that man can live under water providing he carries with him a sufficient supply of breathable air. In submarine works, the workman, clad in an impervious dress, with his head in a metal helmet, receives air from above by means of forcing pumps and regulators.
@@ -374,8 +374,8 @@
         <table>
             <tr>
                 <td align=center>Tacotron2</td>
-                <td align=center>CSE</td>
-                <td align=center>PSE</td>
+                <td align=center>CSE-based Tacotron2</td>
+                <td align=center>PSE-based Tacotron2</td>
             </tr>
 
             <tr>
@@ -391,8 +391,8 @@
         <table>
             <tr>
                 <td align=center>Tacotron2</td>
-                <td align=center>CSE</td>
-                <td align=center>PSE</td>
+                <td align=center>CSE-based Tacotron2</td>
+                <td align=center>PSE-based Tacotron2</td>
             </tr>
 
             <tr>
@@ -409,8 +409,8 @@
         <table>
             <tr>
                 <td align=center>Tacotron2</td>
-                <td align=center>CSE</td>
-                <td align=center>PSE</td>
+                <td align=center>CSE-based Tacotron2</td>
+                <td align=center>PSE-based Tacotron2</td>
             </tr>
 
             <tr>
@@ -426,8 +426,8 @@
         <table>
             <tr>
                 <td align=center>Tacotron2</td>
-                <td align=center>CSE</td>
-                <td align=center>PSE</td>
+                <td align=center>CSE-based Tacotron2</td>
+                <td align=center>PSE-based Tacotron2</td>
             </tr>
 
             <tr>
@@ -435,6 +435,31 @@
                 <td align=center><audio src="assets/English/out_domain/CSE_concated/CB-CUS-01-431.wav" controls=""></audio></td>
                 <td align=center><audio src="assets/English/out_domain/PSE_concated/CB-CUS-01-431.wav" controls=""></audio></td>
             </tr>
+        </table>
+    </blockquote>
+
+    <h2>Prosody control</h2></a>
+    <blockquote>
+        <table>
+            <tr>
+                <td align=center>Who called Mary? <b>Tom called Mary.</b></td>
+                <td align=center>What did Tom do with Mary? <b>Tom called Mary.</b></td>
+                <td align=center>Whom did Tom call? <b>Tom called Mary.</b></td>
+            </tr>
+
+            <tr>
+                <td align=center><audio src="assets/case_study/audio/lj-102.wav" controls=""></audio></td>
+                <td align=center><audio src="assets/case_study/audio/lj-202.wav" controls=""></audio></td>
+                <td align=center><audio src="assets/case_study/audio/lj-302.wav" controls=""></audio></td>
+            </tr>
+
+            <tr>
+                <td align=center><image src="assets/case_study/image/ljspeech-102.pdf" controls=""></audio></td>
+                <td align=center><image src="assets/case_study/image/ljspeech-202.pdf" controls=""></audio></td>
+                <td align=center><image src="assets/case_study/image/ljspeech-302.pdf" controls=""></audio></td>
+            </tr>
+
+
         </table>
     </blockquote>
 
